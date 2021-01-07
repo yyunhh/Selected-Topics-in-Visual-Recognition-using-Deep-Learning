@@ -28,35 +28,42 @@
 
 下面還沒改
 ## Requirement
-* os
-* json
-* numpy
-* pandas
-* matplotlib
-* cv2
-* torch 
-* torchvision
-* CUDA 10.1
-* pycocotools
-
-```!pip install pyyaml==5.1```
-
-```!pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.7/index.html```
+- Numpy
+- PIL
+- gdal
+- scipy
+- scikit-learn
+- opencv-python
+- tqdm
+- jupyter
+- ipywidgets
+- IPython
+- torch
+- torchvision
+- CUDA 10.1
 
 ## Step
 
 a.Set up the requirement 
 
-b.Preprocessing
+b.Run ``` create pair.py```
 
-c.detectron2
-
-## Snapshot of google drive
-![](https://i.imgur.com/V3auFDQ.png)
+c.Run Model - VDSR
 
 ## Reference
-* cocodataset/cocoapi : https://github.com/cocodataset/cocoapi/tree/master/PythonAPI
-
-* NCTU-VRDL/CS_IOC5008 : https://github.com/NCTU-VRDL/CS_IOC5008/blob/master/HW4/data_loader.ipynb
-
-* facebookresearch/detectron2 : https://github.com/facebookresearch/detectron2?fbclid=IwAR1x0mEokXtgA8St7FnyEKzeX-Ok8rj-aH_Fn7SqSY_nhyxGdaRz3OjgTCk
+* Create HR-LR image pairs github
+   * https://github.com/Paper99/SRFBN_CVPR19
+   * https://github.com/jshermeyer/RFSR
+   * https://github.com/S-aiueo32/srntt-pytorch
+* Model
+   * ImageSuper-Resolution (paper with codes)
+   https://paperswithcode.com/task/image-super-resolution
+   * SRGAN
+   https://arxiv.org/pdf/1609.04802.pdf
+   * RFSR
+   https://github.com/jshermeyer/RFSR
+   * VDSR
+   https://github.com/twtygqyy/pytorch-vdsr
+   https://cv.snu.ac.kr/research/VDSR/
+   * BasicSR (Basic Super Restoration)
+   https://github.com/xinntao/BasicSR
