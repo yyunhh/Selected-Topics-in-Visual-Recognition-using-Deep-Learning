@@ -48,7 +48,7 @@
 
 a. Set up the requirement 
 
-b. Run ``` create pair.py```
+b. Run ``` create pair.py``` and ```Create_SR_TrainingData``` in RFSR folder
 
 c. Run Model - VDSR
 
