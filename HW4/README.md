@@ -26,7 +26,6 @@
 * Intel(R) Core(TM) i7-9700K CPU @3.6GHz
 * NVIDIA GeForce RTX2060
 
-下面還沒改
 ## Requirement
 - Numpy
 - PIL
@@ -44,11 +43,11 @@
 
 ## Step
 
-a.Set up the requirement 
+a. Set up the requirement 
 
-b.Run ``` create pair.py```
+b. Run ``` create pair.py```
 
-c.Run Model - VDSR
+c. Run Model - VDSR
 
 ## Reference
 * Create HR-LR image pairs github
