@@ -41,6 +41,11 @@
 - torchvision
 - CUDA 10.1
 
+## Model 
+- RFSR without pretrained model
+Random Forest Super-Resolution(RFSR) is an adaptation and major twist on other
+random-forest super-resolution techniques such as SRF.
+
 ## Step
 
 a. Set up the requirement 
