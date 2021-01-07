@@ -42,10 +42,8 @@
 - CUDA 10.1
 
 ## Model 
-- RFSR without pretrained model
-Random Forest Super-Resolution(RFSR) is an adaptation and major twist on other
-random-forest super-resolution techniques such as SRF.
-
+- Random Forest Super-Resolution(RFSR) without pretrained model
+- Accurate Image Super-Resolution Using Very Deep Convolutional Networks(VDSR) without pretrained model
 ## Step
 
 a. Set up the requirement 
